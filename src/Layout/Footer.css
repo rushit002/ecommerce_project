@@ -1,0 +1,120 @@
+footer {
+    background-color: rgb(58, 58, 58);
+  margin-top: 100px;
+}
+  footer .container-footer {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  footer  .container-footer .content {
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    justify-content: space-between;
+  }
+  footer .container-footer .content .col {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container-footer .content p:first-child:not(.flex p:first-child) {
+    color: white;
+    font-size: 22px;
+  }
+  footer  .container-footer .content p:not(.col, .column p:first-child) {
+    color: rgb(136, 136, 136);
+    margin-bottom: 10px;
+  }
+  footer .container-footer .content .col:first-child {
+    gap: 25px;
+  }
+  footer  .container-footer .content .col:first-child .flex {
+    display: flex;
+  }
+  footer .container-footer .content .col:first-child .flex .col-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .container-footer .content .col:first-child .flex .col-info p {
+    font-size: 14px;
+  }
+  footer  .container-footer .content .col:first-child .flex .col-info span {
+    color: white;
+    font-size: 17px;
+  }
+  footer .container-footer .content .col .column:first-child {
+    margin-right: 50px;
+  }
+  
+  footer .container-footer .content .col .column p:first-child {
+    margin-bottom: 25px;
+  }
+  footer  .container-footer .content .col .column p:not(p:first-child) {
+    margin-bottom: 12px;
+  }
+  footer .container-footer .content .col:last-child {
+    gap: 15px;
+  }
+  footer  .container-footer .content .col:last-child .email {
+    display: flex;
+  }
+  footer  .container-footer .content .col:last-child .email input {
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(76, 76, 76);
+    padding-left: 10px;
+    border: 0;
+    outline: 0;
+  }
+  footer .container-footer .content .col:last-child .email button {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(229, 39, 39);
+    padding-left: 10px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    margin-left: -30px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+  }
+  footer .container-footer .content .col:last-child .social {
+    display: flex;
+    gap: 20px;
+  }
+  footer .container-footer .content .col:last-child .social img {
+    width: 40px;
+  }
+  footer .content-foot {
+    background-color: rgb(43, 43, 43);
+  }
+  footer  .content-foot .foot-text{
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .content-foot .container-footer p {
+    color: rgb(136, 136, 136);
+  }
+  footer .content-foot .container-footer p span {
+    color: white;
+    font-weight: bold;
+  }
+  footer .content-foot .container-footer .pay {
+    display: flex;
+    gap: 20px;
+  }
+  footer .content-foot .container-footer .pay img {
+    width: 70px;
+    height: 40px;
+    object-fit: contain;
+    background-color: white;
+    padding: 10px 5px;
+  }
+  

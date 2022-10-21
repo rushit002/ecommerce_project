@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+.empty-page body {
+    background-color: #eee;
+    font-family: 'Calibri', sans-serif !important;
+}
+
+.empty-page .mt1-100{
+   margin-top:100px;
+
+}
+
+
+.empty-page .card {
+    margin-bottom: 30px;
+    border: 0;
+    width: 100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    letter-spacing: .5px;
+    height: calc(100vh - 500px);
+    border-radius: 8px;
+}
+
+.empty-page.card .card-header {
+    background-color: #fff;
+    border-bottom: none;
+    padding: 24px;
+    border-bottom: 1px solid #f6f7fb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.empty-page .card .card-body {
+    padding: 30px;
+    background-color: transparent;
+}
+
+.empty-page .btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+    background-color: #4466f2!important;
+    border-color: #4466f2!important;
+}
